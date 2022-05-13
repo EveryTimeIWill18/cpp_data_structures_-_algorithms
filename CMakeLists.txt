@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.17)
+project(some_test_projecy)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(cpp_data_structures_and_algorithms main.cpp include/data_structures/Stack.h
+        include/data_structures/Stack.cpp)
