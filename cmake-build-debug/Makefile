@@ -143,6 +143,60 @@ cpp_data_structures_and_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/build
 .PHONY : cpp_data_structures_and_algorithms/fast
 
+include/data_structures/LinkedList.o: include/data_structures/LinkedList.cpp.o
+
+.PHONY : include/data_structures/LinkedList.o
+
+# target to build an object file
+include/data_structures/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o
+.PHONY : include/data_structures/LinkedList.cpp.o
+
+include/data_structures/LinkedList.i: include/data_structures/LinkedList.cpp.i
+
+.PHONY : include/data_structures/LinkedList.i
+
+# target to preprocess a source file
+include/data_structures/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.i
+.PHONY : include/data_structures/LinkedList.cpp.i
+
+include/data_structures/LinkedList.s: include/data_structures/LinkedList.cpp.s
+
+.PHONY : include/data_structures/LinkedList.s
+
+# target to generate assembly for a file
+include/data_structures/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.s
+.PHONY : include/data_structures/LinkedList.cpp.s
+
+include/data_structures/Node.o: include/data_structures/Node.cpp.o
+
+.PHONY : include/data_structures/Node.o
+
+# target to build an object file
+include/data_structures/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o
+.PHONY : include/data_structures/Node.cpp.o
+
+include/data_structures/Node.i: include/data_structures/Node.cpp.i
+
+.PHONY : include/data_structures/Node.i
+
+# target to preprocess a source file
+include/data_structures/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.i
+.PHONY : include/data_structures/Node.cpp.i
+
+include/data_structures/Node.s: include/data_structures/Node.cpp.s
+
+.PHONY : include/data_structures/Node.s
+
+# target to generate assembly for a file
+include/data_structures/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.s
+.PHONY : include/data_structures/Node.cpp.s
+
 include/data_structures/Queue.o: include/data_structures/Queue.cpp.o
 
 .PHONY : include/data_structures/Queue.o
@@ -233,6 +287,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_data_structures_and_algorithms"
+	@echo "... include/data_structures/LinkedList.o"
+	@echo "... include/data_structures/LinkedList.i"
+	@echo "... include/data_structures/LinkedList.s"
+	@echo "... include/data_structures/Node.o"
+	@echo "... include/data_structures/Node.i"
+	@echo "... include/data_structures/Node.s"
 	@echo "... include/data_structures/Queue.o"
 	@echo "... include/data_structures/Queue.i"
 	@echo "... include/data_structures/Queue.s"

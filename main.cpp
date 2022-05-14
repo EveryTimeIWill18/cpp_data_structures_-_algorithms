@@ -4,8 +4,10 @@
 #include <iostream>
 #include "include/data_structures/Stack.h"
 #include "include/data_structures/Queue.h"
+#include "include/data_structures/LinkedList.h"
 using data_structures_and_algorithms::Stack;
 using data_structures_and_algorithms::Queue;
+using data_structures_and_algorithms::LinkedList;
 
 
 int main() {
@@ -40,6 +42,24 @@ int main() {
     std::cout << "Top Element in the Queue ==> "
         << q1.peek() << "\n";
 
+    auto list1 = LinkedList(1);
+    list1.insert_front(5);
+    list1.insert_front(3);
+    list1.insert_front(7);
+    list1.insert_front(100);
+    list1.insert_front(200);
+    list1.print();
+    int deleted_node_value = list1.delete_front();
+    std::cout << "Deleted Node with value: "
+        << deleted_node_value << "\n";
+
+    list1.print();
+
+    list1.search(5);
+
+    list1.delete_node(5);
+
+    list1.print();
 
 
 }

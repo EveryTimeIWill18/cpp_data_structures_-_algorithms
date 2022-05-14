@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.h">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.cpp">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.h">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
 		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.cpp">
 			<Option target="cpp_data_structures_and_algorithms"/>
 		</Unit>

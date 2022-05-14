@@ -116,11 +116,39 @@ CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.cpp -o CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.s
 
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o: CMakeFiles/cpp_data_structures_and_algorithms.dir/flags.make
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o: ../include/data_structures/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o -c /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.cpp
+
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.cpp > CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.i
+
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.cpp -o CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.s
+
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o: CMakeFiles/cpp_data_structures_and_algorithms.dir/flags.make
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o: ../include/data_structures/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o -c /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp
+
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp > CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.i
+
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp -o CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.s
+
 # Object files for target cpp_data_structures_and_algorithms
 cpp_data_structures_and_algorithms_OBJECTS = \
 "CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o" \
 "CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Stack.cpp.o" \
-"CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.o"
+"CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.o" \
+"CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o" \
+"CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o"
 
 # External object files for target cpp_data_structures_and_algorithms
 cpp_data_structures_and_algorithms_EXTERNAL_OBJECTS =
@@ -128,9 +156,11 @@ cpp_data_structures_and_algorithms_EXTERNAL_OBJECTS =
 cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o
 cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Stack.cpp.o
 cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.o
+cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Node.cpp.o
+cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o
 cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make
 cpp_data_structures_and_algorithms: CMakeFiles/cpp_data_structures_and_algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp_data_structures_and_algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp_data_structures_and_algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_data_structures_and_algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
