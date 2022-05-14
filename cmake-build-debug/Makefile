@@ -143,6 +143,60 @@ cpp_data_structures_and_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/build
 .PHONY : cpp_data_structures_and_algorithms/fast
 
+include/data_structures/B_TreeNode.o: include/data_structures/B_TreeNode.cpp.o
+
+.PHONY : include/data_structures/B_TreeNode.o
+
+# target to build an object file
+include/data_structures/B_TreeNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.o
+.PHONY : include/data_structures/B_TreeNode.cpp.o
+
+include/data_structures/B_TreeNode.i: include/data_structures/B_TreeNode.cpp.i
+
+.PHONY : include/data_structures/B_TreeNode.i
+
+# target to preprocess a source file
+include/data_structures/B_TreeNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.i
+.PHONY : include/data_structures/B_TreeNode.cpp.i
+
+include/data_structures/B_TreeNode.s: include/data_structures/B_TreeNode.cpp.s
+
+.PHONY : include/data_structures/B_TreeNode.s
+
+# target to generate assembly for a file
+include/data_structures/B_TreeNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.s
+.PHONY : include/data_structures/B_TreeNode.cpp.s
+
+include/data_structures/BinaryTree.o: include/data_structures/BinaryTree.cpp.o
+
+.PHONY : include/data_structures/BinaryTree.o
+
+# target to build an object file
+include/data_structures/BinaryTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.o
+.PHONY : include/data_structures/BinaryTree.cpp.o
+
+include/data_structures/BinaryTree.i: include/data_structures/BinaryTree.cpp.i
+
+.PHONY : include/data_structures/BinaryTree.i
+
+# target to preprocess a source file
+include/data_structures/BinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.i
+.PHONY : include/data_structures/BinaryTree.cpp.i
+
+include/data_structures/BinaryTree.s: include/data_structures/BinaryTree.cpp.s
+
+.PHONY : include/data_structures/BinaryTree.s
+
+# target to generate assembly for a file
+include/data_structures/BinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.s
+.PHONY : include/data_structures/BinaryTree.cpp.s
+
 include/data_structures/LinkedList.o: include/data_structures/LinkedList.cpp.o
 
 .PHONY : include/data_structures/LinkedList.o
@@ -287,6 +341,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_data_structures_and_algorithms"
+	@echo "... include/data_structures/B_TreeNode.o"
+	@echo "... include/data_structures/B_TreeNode.i"
+	@echo "... include/data_structures/B_TreeNode.s"
+	@echo "... include/data_structures/BinaryTree.o"
+	@echo "... include/data_structures/BinaryTree.i"
+	@echo "... include/data_structures/BinaryTree.s"
 	@echo "... include/data_structures/LinkedList.o"
 	@echo "... include/data_structures/LinkedList.i"
 	@echo "... include/data_structures/LinkedList.s"

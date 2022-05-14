@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.cpp">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.h">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/BinaryTree.cpp">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/BinaryTree.h">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
 		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp">
 			<Option target="cpp_data_structures_and_algorithms"/>
 		</Unit>
