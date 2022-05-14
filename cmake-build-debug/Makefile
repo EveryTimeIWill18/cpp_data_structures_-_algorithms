@@ -143,6 +143,33 @@ cpp_data_structures_and_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/build
 .PHONY : cpp_data_structures_and_algorithms/fast
 
+include/data_structures/Queue.o: include/data_structures/Queue.cpp.o
+
+.PHONY : include/data_structures/Queue.o
+
+# target to build an object file
+include/data_structures/Queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.o
+.PHONY : include/data_structures/Queue.cpp.o
+
+include/data_structures/Queue.i: include/data_structures/Queue.cpp.i
+
+.PHONY : include/data_structures/Queue.i
+
+# target to preprocess a source file
+include/data_structures/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.i
+.PHONY : include/data_structures/Queue.cpp.i
+
+include/data_structures/Queue.s: include/data_structures/Queue.cpp.s
+
+.PHONY : include/data_structures/Queue.s
+
+# target to generate assembly for a file
+include/data_structures/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.cpp.s
+.PHONY : include/data_structures/Queue.cpp.s
+
 include/data_structures/Stack.o: include/data_structures/Stack.cpp.o
 
 .PHONY : include/data_structures/Stack.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_data_structures_and_algorithms"
+	@echo "... include/data_structures/Queue.o"
+	@echo "... include/data_structures/Queue.i"
+	@echo "... include/data_structures/Queue.s"
 	@echo "... include/data_structures/Stack.o"
 	@echo "... include/data_structures/Stack.i"
 	@echo "... include/data_structures/Stack.s"

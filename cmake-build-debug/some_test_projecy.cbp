@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.cpp">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.h">
+			<Option target="cpp_data_structures_and_algorithms"/>
+		</Unit>
 		<Unit filename="/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Stack.cpp">
 			<Option target="cpp_data_structures_and_algorithms"/>
 		</Unit>

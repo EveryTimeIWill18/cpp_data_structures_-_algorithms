@@ -3,8 +3,10 @@
 //
 #include <iostream>
 #include "include/data_structures/Stack.h"
-
+#include "include/data_structures/Queue.h"
 using data_structures_and_algorithms::Stack;
+using data_structures_and_algorithms::Queue;
+
 
 int main() {
     std::cout << "Data Structures & Algorithms in C++\n";
@@ -22,6 +24,22 @@ int main() {
     s1.resize(10);
     std::cout << "s1's new size ==> " << s1.get_size()
         << "\ns1 pointer position ==> " << s1.get_pos() << "\n";
+
+
+    auto q1 = Queue(4);
+    q1.enqueue(1);
+    q1.enqueue(2);
+    q1.enqueue(3);
+    q1.enqueue(4);
+//    q1.enqueue(5);  // enqueue works correctly
+
+    int queue_value = q1.dequeue();
+    int queue_value_2 = q1.dequeue();
+    std::cout << "queue_value ==> " << queue_value << "\n";
+    std::cout << "queue_value ==> " << queue_value_2 << "\n";
+    std::cout << "Top Element in the Queue ==> "
+        << q1.peek() << "\n";
+
 
 
 }
