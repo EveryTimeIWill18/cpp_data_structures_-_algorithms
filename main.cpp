@@ -7,14 +7,18 @@
 #include "include/data_structures/Stack.h"
 #include "include/data_structures/Queue.h"
 #include "include/data_structures/LinkedList.h"
+#include "include/data_structures/BinaryTree.h"
 using data_structures_and_algorithms::Stack;
 using data_structures_and_algorithms::Queue;
 using data_structures_and_algorithms::LinkedList;
+using data_structures_and_algorithms::BinaryTree;
 
 
 int main() {
     std::cout << "Data Structures & Algorithms in C++\n";
 
+
+    /* Stack Data Structure */
     auto s1 = Stack(4);
     s1.push_back(4);
     s1.push_back(3);
@@ -29,7 +33,9 @@ int main() {
     std::cout << "s1's new size ==> " << s1.get_size()
         << "\ns1 pointer position ==> " << s1.get_pos() << "\n";
 
+    /* END: Stack Data Structure */
 
+    /* Queue Data Structure */
     auto q1 = Queue(4);
     q1.enqueue(1);
     q1.enqueue(2);
@@ -43,7 +49,9 @@ int main() {
     std::cout << "queue_value ==> " << queue_value_2 << "\n";
     std::cout << "Top Element in the Queue ==> "
         << q1.peek() << "\n";
+    /* END: Queue Data Structure */
 
+    /* Linked List Data Structure */
     auto list1 = LinkedList(1);
     list1.insert_front(5);
     list1.insert_front(3);
@@ -63,7 +71,9 @@ int main() {
 
     list1.print();
 
-    // lambdas
+    /* END: Linked List Data Structure */
+
+    /* LAMBDAS */
     int a2 = 100;
     auto print_nums = [&a2]() {
         a2 = a2*100;
@@ -75,12 +85,28 @@ int main() {
     std::for_each(v1.begin(), v1.end(),[&](int s) {v_sum_ += s; });
 
     std::cout << "v_sum_ ==> " << v_sum_ << std::endl;
-
-
-
-
     std::cout << "print_nums ==> " << print_nums() << "\n";
     std::cout << "a2 ==> " << a2 << "\n";
+
+    /* END: LAMBDAS */
+
+    /* Binary Tree Data Structure */
+    auto btree_1 = BinaryTree(10);
+    auto btree_2 = BinaryTree();
+
+    btree_2.insert(13);
+    //btree_1.insert(5);
+    //btree_1.insert(4);
+    //btree_1.insert(20);
+
+
+
+
+    /* END: Binary Tree Data Structure */
+
+
+
+
 
 return 0;
 
