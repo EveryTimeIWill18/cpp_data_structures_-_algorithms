@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.cpp
-LinkedList.h
-/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.h
-
 /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.h
 iostream
 -
@@ -17,4 +13,26 @@ Node.h
 /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.h
 
 /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.h
+
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.h
+iostream
+-
+
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Stack.h
+iostream
+-
+
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+include/data_structures/Stack.h
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Stack.h
+include/data_structures/Queue.h
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.h
+include/data_structures/LinkedList.h
+/Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.h
 

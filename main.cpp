@@ -2,6 +2,8 @@
 // Created by William Murphy on 5/13/22.
 //
 #include <iostream>
+#include <vector>
+#include <algorithm>
 #include "include/data_structures/Stack.h"
 #include "include/data_structures/Queue.h"
 #include "include/data_structures/LinkedList.h"
@@ -61,5 +63,25 @@ int main() {
 
     list1.print();
 
+    // lambdas
+    int a2 = 100;
+    auto print_nums = [&a2]() {
+        a2 = a2*100;
+        return a2*100;
+    };
+
+    std::vector<int> v1 = {1, 2, 3, 4, 5};
+    int v_sum_ = 0;
+    std::for_each(v1.begin(), v1.end(),[&](int s) {v_sum_ += s; });
+
+    std::cout << "v_sum_ ==> " << v_sum_ << std::endl;
+
+
+
+
+    std::cout << "print_nums ==> " << print_nums() << "\n";
+    std::cout << "a2 ==> " << a2 << "\n";
+
+return 0;
 
 }

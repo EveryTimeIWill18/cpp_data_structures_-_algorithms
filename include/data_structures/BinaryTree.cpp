@@ -4,5 +4,5 @@
 
 #include "BinaryTree.h"
 namespace data_structures_and_algorithms {
-    
+
 }
