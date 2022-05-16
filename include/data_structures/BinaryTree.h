@@ -2,8 +2,8 @@
 // Created by William Murphy on 5/14/22.
 //
 
-#ifndef SOME_TEST_PROJECY_BINARYTREE_H
-#define SOME_TEST_PROJECY_BINARYTREE_H
+#ifndef DATA_STRUCTURES_AND_ALGORITHMS_BINARYTREE_H
+#define DATA_STRUCTURES_AND_ALGORITHMS_BINARYTREE_H
 #include<iostream>
 #include"B_TreeNode.h"
 
@@ -21,4 +21,4 @@ namespace data_structures_and_algorithms {
     };
 }
 
-#endif //SOME_TEST_PROJECY_BINARYTREE_H
+#endif //DATA_STRUCTURES_AND_ALGORITHMS_BINARYTREE_H

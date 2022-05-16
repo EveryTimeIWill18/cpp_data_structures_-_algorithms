@@ -1,8 +1,8 @@
 //
 // Created by William Murphy on 5/13/22.
 //
-#ifndef SOME_TEST_PROJECY_STACK_H
-#define SOME_TEST_PROJECY_STACK_H
+#ifndef DATA_STRUCTURES_AND_ALGORITHMS_STACK_H
+#define DATA_STRUCTURES_AND_ALGORITHMS_STACK_H
 #include <iostream>
 
 namespace data_structures_and_algorithms {

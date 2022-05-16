@@ -2,8 +2,8 @@
 // Created by William Murphy on 5/14/22.
 //
 
-#ifndef SOME_TEST_PROJECY_LINKEDLIST_H
-#define SOME_TEST_PROJECY_LINKEDLIST_H
+#ifndef DATA_STRUCTURES_AND_ALGORITHMS_LINKEDLIST_H
+#define DATA_STRUCTURES_AND_ALGORITHMS_LINKEDLIST_H
 #include <iostream>
 #include "Node.h"
 
@@ -26,4 +26,4 @@ namespace data_structures_and_algorithms {
 
 }
 
-#endif //SOME_TEST_PROJECY_LINKEDLIST_H
+#endif //DATA_STRUCTURES_AND_ALGORITHMS_LINKEDLIST_H

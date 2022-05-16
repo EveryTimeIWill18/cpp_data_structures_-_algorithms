@@ -2,8 +2,8 @@
 // Created by William Murphy on 5/13/22.
 //
 
-#ifndef SOME_TEST_PROJECY_QUEUE_H
-#define SOME_TEST_PROJECY_QUEUE_H
+#ifndef DATA_STRUCTURES_AND_ALGORITHMS_QUEUE_H
+#define DATA_STRUCTURES_AND_ALGORITHMS_QUEUE_H
 #include <iostream>
 
 namespace data_structures_and_algorithms {
@@ -29,4 +29,4 @@ namespace data_structures_and_algorithms {
 
 
 
-#endif //SOME_TEST_PROJECY_QUEUE_H
+#endif //DATA_STRUCTURES_AND_ALGORITHMS_QUEUE_H

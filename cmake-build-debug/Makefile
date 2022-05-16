@@ -143,6 +143,33 @@ cpp_data_structures_and_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/build
 .PHONY : cpp_data_structures_and_algorithms/fast
 
+include/data_structures/BST_Node.o: include/data_structures/BST_Node.cpp.o
+
+.PHONY : include/data_structures/BST_Node.o
+
+# target to build an object file
+include/data_structures/BST_Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BST_Node.cpp.o
+.PHONY : include/data_structures/BST_Node.cpp.o
+
+include/data_structures/BST_Node.i: include/data_structures/BST_Node.cpp.i
+
+.PHONY : include/data_structures/BST_Node.i
+
+# target to preprocess a source file
+include/data_structures/BST_Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BST_Node.cpp.i
+.PHONY : include/data_structures/BST_Node.cpp.i
+
+include/data_structures/BST_Node.s: include/data_structures/BST_Node.cpp.s
+
+.PHONY : include/data_structures/BST_Node.s
+
+# target to generate assembly for a file
+include/data_structures/BST_Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BST_Node.cpp.s
+.PHONY : include/data_structures/BST_Node.cpp.s
+
 include/data_structures/B_TreeNode.o: include/data_structures/B_TreeNode.cpp.o
 
 .PHONY : include/data_structures/B_TreeNode.o
@@ -169,6 +196,33 @@ include/data_structures/B_TreeNode.s: include/data_structures/B_TreeNode.cpp.s
 include/data_structures/B_TreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.s
 .PHONY : include/data_structures/B_TreeNode.cpp.s
+
+include/data_structures/BinarySearchTree.o: include/data_structures/BinarySearchTree.cpp.o
+
+.PHONY : include/data_structures/BinarySearchTree.o
+
+# target to build an object file
+include/data_structures/BinarySearchTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinarySearchTree.cpp.o
+.PHONY : include/data_structures/BinarySearchTree.cpp.o
+
+include/data_structures/BinarySearchTree.i: include/data_structures/BinarySearchTree.cpp.i
+
+.PHONY : include/data_structures/BinarySearchTree.i
+
+# target to preprocess a source file
+include/data_structures/BinarySearchTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinarySearchTree.cpp.i
+.PHONY : include/data_structures/BinarySearchTree.cpp.i
+
+include/data_structures/BinarySearchTree.s: include/data_structures/BinarySearchTree.cpp.s
+
+.PHONY : include/data_structures/BinarySearchTree.s
+
+# target to generate assembly for a file
+include/data_structures/BinarySearchTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_data_structures_and_algorithms.dir/build.make CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinarySearchTree.cpp.s
+.PHONY : include/data_structures/BinarySearchTree.cpp.s
 
 include/data_structures/BinaryTree.o: include/data_structures/BinaryTree.cpp.o
 
@@ -341,9 +395,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp_data_structures_and_algorithms"
+	@echo "... include/data_structures/BST_Node.o"
+	@echo "... include/data_structures/BST_Node.i"
+	@echo "... include/data_structures/BST_Node.s"
 	@echo "... include/data_structures/B_TreeNode.o"
 	@echo "... include/data_structures/B_TreeNode.i"
 	@echo "... include/data_structures/B_TreeNode.s"
+	@echo "... include/data_structures/BinarySearchTree.o"
+	@echo "... include/data_structures/BinarySearchTree.i"
+	@echo "... include/data_structures/BinarySearchTree.s"
 	@echo "... include/data_structures/BinaryTree.o"
 	@echo "... include/data_structures/BinaryTree.i"
 	@echo "... include/data_structures/BinaryTree.s"
