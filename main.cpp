@@ -23,8 +23,7 @@ using data_structures_and_algorithms::BST_Node;
 using data_structures_and_algorithms::BinarySearchTree;
 
 
-int main() {
-    std::cout << "Data Structures & Algorithms in C++\n";
+
 
 
     /* Stack Data Structure */
