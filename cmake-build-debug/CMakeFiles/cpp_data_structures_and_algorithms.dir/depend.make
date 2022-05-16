@@ -4,6 +4,7 @@
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.o: ../include/data_structures/B_TreeNode.cpp
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_TreeNode.cpp.o: ../include/data_structures/B_TreeNode.h
 
+CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.o: ../include/data_structures/B_TreeNode.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.o: ../include/data_structures/BinaryTree.cpp
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.o: ../include/data_structures/BinaryTree.h
 
@@ -20,6 +21,8 @@ CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Queue.
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Stack.cpp.o: ../include/data_structures/Stack.cpp
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Stack.cpp.o: ../include/data_structures/Stack.h
 
+CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o: ../include/data_structures/B_TreeNode.h
+CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o: ../include/data_structures/BinaryTree.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o: ../include/data_structures/LinkedList.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o: ../include/data_structures/Node.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o: ../include/data_structures/Queue.h

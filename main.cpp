@@ -4,6 +4,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <functional>
+#include <numeric>
+#include <string>
 #include "include/data_structures/Stack.h"
 #include "include/data_structures/Queue.h"
 #include "include/data_structures/LinkedList.h"
@@ -87,6 +90,24 @@ int main() {
     std::cout << "v_sum_ ==> " << v_sum_ << std::endl;
     std::cout << "print_nums ==> " << print_nums() << "\n";
     std::cout << "a2 ==> " << a2 << "\n";
+
+    auto f1 = [](int x, int y) {return x + y;};
+    std::function<int(int, int)>  f2 = [](int x, int y) { return x + y; };
+
+    std::vector<int> v2 = {1,2,3,4,5,6,7,8,9,10};
+    auto v2_sum_ = std::accumulate(v2.begin(), v2.end(), 0);
+    std::cout << "v2_sum_ = " << v2_sum_ << std::endl;
+
+    // string accumulate
+    std::vector<std::string> sv_1 = {"will", "James", "Melissa", "Bob", "John"};
+
+    std::for_each(sv_1.begin(), sv_1.end(),
+               [](const auto & elem ) {
+        std::cout<<elem<<" ";});
+    std::cout << "\n";
+
+
+
 
     /* END: LAMBDAS */
 

@@ -5,6 +5,7 @@ CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/B_Tree
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.cpp
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/BinaryTree.cpp.o
+ /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.h
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/BinaryTree.cpp
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/BinaryTree.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/LinkedList.cpp.o
@@ -21,6 +22,8 @@ CMakeFiles/cpp_data_structures_and_algorithms.dir/include/data_structures/Stack.
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Stack.cpp
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Stack.h
 CMakeFiles/cpp_data_structures_and_algorithms.dir/main.cpp.o
+ /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/B_TreeNode.h
+ /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/BinaryTree.h
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/LinkedList.h
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Node.h
  /Users/williammurphy/c_project_git/cpp_data_structures_and_algorithms/include/data_structures/Queue.h
